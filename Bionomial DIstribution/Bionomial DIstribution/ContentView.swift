@@ -18,7 +18,7 @@ struct BionDist: Identifiable{
 func changeList(n:Int,p:Double)->[BionDist]{
     var newBionDist=[BionDist](repeating:BionDist(x:"x",r1:"P(x)",r2:"x*P(x)",fontWeightType: .black), count:n+2)
     for i in 0...n{
-        newBionDist[i+1]=BionDist(x:String(i),r1:String(format:"%.7f",bion(n: n, i: i, p: p)),r2:String(format:"%4f",bion(n:n,i:i,p:p)*Double(i)),fontWeightType: .regular)
+        newBionDist[i+1]=BionDist(x:String(i),r1:String(format:"%.\(7+n/10)lf",bion(n: n, i: i, p: p)),r2:String(format:"%.\(7+n/10)lf",bion(n:n,i:i,p:p)*Double(i)),fontWeightType: .regular)
     }
     return newBionDist
 }
@@ -28,35 +28,35 @@ func calculateWidth(_ binding: Binding<CGFloat>) -> some View {
             DispatchQueue.main.async {
                 binding.wrappedValue = geometry.frame(in: .local).width
             }
-
-            return .clear
-        }
+            
+        return .clear
     }
+}
 
 struct ContentView: View {
-    @State var inn:String=""
-    @State var inp:String=""
-    @State var n:Int=1
-    @State var p:Double=0.5
-    @State var listView=[
+    @State private var inn:String=""
+    @State private var inp:String=""
+    @State private var n:Int=1
+    @State private var p:Double=0.5
+    @State private var listView=[
         BionDist(x:"x",r1:"P(x)",r2:"x*P(x)",fontWeightType: .black),
-        BionDist(x:String(0),r1:String(format:"%.7f",0.5),r2:String(format:"%.7f",0), fontWeightType: .regular),
-        BionDist(x:String(1),r1:String(format:"%.7f",0.5),r2:String(format:"%.7f",0.5), fontWeightType: .regular),
+        BionDist(x:String(0),r1:String(format:"%.7lf",0.5),r2:String(format:"%.7lf",0), fontWeightType: .regular),
+        BionDist(x:String(1),r1:String(format:"%.7lf",0.5),r2:String(format:"%.7lf",0.5), fontWeightType: .regular),
     ]
-    @State var width:CGFloat=0
+    @State private var width:CGFloat=0
+    @State private var old_n=1
       var body: some View {
           VStack{
               VStack{
                   Text("Bionomial Distributions")
                       .font(.title)
-                      .controlSize(.large)
                       .padding()
                   HStack{
                       Text("n:")
                           .padding()
                       TextField("Number of trails",text:$inn,onEditingChanged: {_ in
                           let numberState:(isNumber:Bool,isPositive:Bool,isInteger:Bool)=number(self.inn)
-                          if !(numberState.isNumber && numberState.isPositive && numberState.isInteger){
+                          if !(numberState.isNumber && numberState.isInteger){
                               inn=String(n)
                               return
                           }
@@ -66,12 +66,16 @@ struct ContentView: View {
                               inn="1"
                               return
                           }
+                          if result>60{
+                              n=60
+                              inn="60"
+                              return
+                          }
                           n=result
                           inn=String(n)
                       })
                           .textFieldStyle(.roundedBorder)
                       Text("\tp:")
-                          //.padding()
                       TextField("Propotion of success",text:$inp,onEditingChanged: {_ in
                           let numberState:(isNumber:Bool,isPositive:Bool,_:Bool)=number(self.inp)
                           if !(numberState.isNumber && numberState.isPositive){
@@ -90,7 +94,8 @@ struct ContentView: View {
                           .textFieldStyle(.roundedBorder)
                           .padding()
                       Button("Calculate") {
-                          NSApp.keyWindow?.makeFirstResponder(nil)
+                          NSApp.keyWindow?.makeFirstResponder(nil) //Set focus state to update the value of n&p
+                          old_n=n
                           listView=changeList(n:n,p:p)
                       }
                       .padding()
@@ -103,7 +108,8 @@ struct ContentView: View {
                       Text(bionDist.r1).fontWeight(bionDist.fontWeightType).frame(alignment:.center).frame(width:width*0.33+45,height:20)
                       Text(bionDist.r2).fontWeight(bionDist.fontWeightType).frame(alignment:.center).frame(width:width*0.33+45,height:20)
                   }
-                  if(bionDist.x != String(n)){
+                  let xValue=Int(bionDist.x)
+                  if xValue==nil||xValue! < old_n{
                       Divider()
                   }
               }

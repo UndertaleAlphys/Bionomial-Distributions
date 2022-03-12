@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87239C5827DB842B0006688F /* Bionomial_DIstributionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C5727DB842B0006688F /* Bionomial_DIstributionApp.swift */; };
+		87239C5A27DB842B0006688F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C5927DB842B0006688F /* ContentView.swift */; };
+		87239C5C27DB842C0006688F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87239C5B27DB842C0006688F /* Assets.xcassets */; };
+		87239C5F27DB842C0006688F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87239C5E27DB842C0006688F /* Preview Assets.xcassets */; };
+		87239C6A27DB842C0006688F /* Bionomial_DIstributionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C6927DB842C0006688F /* Bionomial_DIstributionTests.swift */; };
+		87239C7427DB842C0006688F /* Bionomial_DIstributionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C7327DB842C0006688F /* Bionomial_DIstributionUITests.swift */; };
+		87239C7627DB842C0006688F /* Bionomial_DIstributionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C7527DB842C0006688F /* Bionomial_DIstributionUITestsLaunchTests.swift */; };
+		87239C8527DBA9550006688F /* Math functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87239C8427DBA9550006688F /* Math functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87239C6627DB842C0006688F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87239C4C27DB842B0006688F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87239C5327DB842B0006688F;
+			remoteInfo = "Bionomial DIstribution";
+		};
+		87239C7027DB842C0006688F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87239C4C27DB842B0006688F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87239C5327DB842B0006688F;
+			remoteInfo = "Bionomial DIstribution";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87239C5427DB842B0006688F /* Bionomial DIstribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionomial DIstribution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87239C5727DB842B0006688F /* Bionomial_DIstributionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionomial_DIstributionApp.swift; sourceTree = "<group>"; };
+		87239C5927DB842B0006688F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87239C5B27DB842C0006688F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87239C5E27DB842C0006688F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87239C6027DB842C0006688F /* Bionomial_DIstribution.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bionomial_DIstribution.entitlements; sourceTree = "<group>"; };
+		87239C6527DB842C0006688F /* Bionomial DIstributionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bionomial DIstributionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87239C6927DB842C0006688F /* Bionomial_DIstributionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionomial_DIstributionTests.swift; sourceTree = "<group>"; };
+		87239C6F27DB842C0006688F /* Bionomial DIstributionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bionomial DIstributionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87239C7327DB842C0006688F /* Bionomial_DIstributionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionomial_DIstributionUITests.swift; sourceTree = "<group>"; };
+		87239C7527DB842C0006688F /* Bionomial_DIstributionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bionomial_DIstributionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87239C8427DBA9550006688F /* Math functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Math functions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87239C5127DB842B0006688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6227DB842C0006688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6C27DB842C0006688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87239C4B27DB842B0006688F = {
+			isa = PBXGroup;
+			children = (
+				87239C5627DB842B0006688F /* Bionomial DIstribution */,
+				87239C6827DB842C0006688F /* Bionomial DIstributionTests */,
+				87239C7227DB842C0006688F /* Bionomial DIstributionUITests */,
+				87239C5527DB842B0006688F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87239C5527DB842B0006688F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87239C5427DB842B0006688F /* Bionomial DIstribution.app */,
+				87239C6527DB842C0006688F /* Bionomial DIstributionTests.xctest */,
+				87239C6F27DB842C0006688F /* Bionomial DIstributionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87239C5627DB842B0006688F /* Bionomial DIstribution */ = {
+			isa = PBXGroup;
+			children = (
+				87239C5727DB842B0006688F /* Bionomial_DIstributionApp.swift */,
+				87239C5927DB842B0006688F /* ContentView.swift */,
+				87239C5B27DB842C0006688F /* Assets.xcassets */,
+				87239C6027DB842C0006688F /* Bionomial_DIstribution.entitlements */,
+				87239C5D27DB842C0006688F /* Preview Content */,
+				87239C8427DBA9550006688F /* Math functions.swift */,
+			);
+			path = "Bionomial DIstribution";
+			sourceTree = "<group>";
+		};
+		87239C5D27DB842C0006688F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87239C5E27DB842C0006688F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87239C6827DB842C0006688F /* Bionomial DIstributionTests */ = {
+			isa = PBXGroup;
+			children = (
+				87239C6927DB842C0006688F /* Bionomial_DIstributionTests.swift */,
+			);
+			path = "Bionomial DIstributionTests";
+			sourceTree = "<group>";
+		};
+		87239C7227DB842C0006688F /* Bionomial DIstributionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87239C7327DB842C0006688F /* Bionomial_DIstributionUITests.swift */,
+				87239C7527DB842C0006688F /* Bionomial_DIstributionUITestsLaunchTests.swift */,
+			);
+			path = "Bionomial DIstributionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87239C5327DB842B0006688F /* Bionomial DIstribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87239C7927DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstribution" */;
+			buildPhases = (
+				87239C5027DB842B0006688F /* Sources */,
+				87239C5127DB842B0006688F /* Frameworks */,
+				87239C5227DB842B0006688F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionomial DIstribution";
+			productName = "Bionomial DIstribution";
+			productReference = 87239C5427DB842B0006688F /* Bionomial DIstribution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87239C6427DB842C0006688F /* Bionomial DIstributionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87239C7C27DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstributionTests" */;
+			buildPhases = (
+				87239C6127DB842C0006688F /* Sources */,
+				87239C6227DB842C0006688F /* Frameworks */,
+				87239C6327DB842C0006688F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87239C6727DB842C0006688F /* PBXTargetDependency */,
+			);
+			name = "Bionomial DIstributionTests";
+			productName = "Bionomial DIstributionTests";
+			productReference = 87239C6527DB842C0006688F /* Bionomial DIstributionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87239C6E27DB842C0006688F /* Bionomial DIstributionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87239C7F27DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstributionUITests" */;
+			buildPhases = (
+				87239C6B27DB842C0006688F /* Sources */,
+				87239C6C27DB842C0006688F /* Frameworks */,
+				87239C6D27DB842C0006688F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87239C7127DB842C0006688F /* PBXTargetDependency */,
+			);
+			name = "Bionomial DIstributionUITests";
+			productName = "Bionomial DIstributionUITests";
+			productReference = 87239C6F27DB842C0006688F /* Bionomial DIstributionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87239C4C27DB842B0006688F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					87239C5327DB842B0006688F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					87239C6427DB842C0006688F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 87239C5327DB842B0006688F;
+					};
+					87239C6E27DB842C0006688F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 87239C5327DB842B0006688F;
+					};
+				};
+			};
+			buildConfigurationList = 87239C4F27DB842B0006688F /* Build configuration list for PBXProject "Bionomial DIstribution" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87239C4B27DB842B0006688F;
+			productRefGroup = 87239C5527DB842B0006688F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87239C5327DB842B0006688F /* Bionomial DIstribution */,
+				87239C6427DB842C0006688F /* Bionomial DIstributionTests */,
+				87239C6E27DB842C0006688F /* Bionomial DIstributionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87239C5227DB842B0006688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87239C5F27DB842C0006688F /* Preview Assets.xcassets in Resources */,
+				87239C5C27DB842C0006688F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6327DB842C0006688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6D27DB842C0006688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87239C5027DB842B0006688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87239C5A27DB842B0006688F /* ContentView.swift in Sources */,
+				87239C5827DB842B0006688F /* Bionomial_DIstributionApp.swift in Sources */,
+				87239C8527DBA9550006688F /* Math functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6127DB842C0006688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87239C6A27DB842C0006688F /* Bionomial_DIstributionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87239C6B27DB842C0006688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87239C7427DB842C0006688F /* Bionomial_DIstributionUITests.swift in Sources */,
+				87239C7627DB842C0006688F /* Bionomial_DIstributionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87239C6727DB842C0006688F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87239C5327DB842B0006688F /* Bionomial DIstribution */;
+			targetProxy = 87239C6627DB842C0006688F /* PBXContainerItemProxy */;
+		};
+		87239C7127DB842C0006688F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87239C5327DB842B0006688F /* Bionomial DIstribution */;
+			targetProxy = 87239C7027DB842C0006688F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87239C7727DB842C0006688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87239C7827DB842C0006688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		87239C7A27DB842C0006688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bionomial DIstribution/Bionomial_DIstribution.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bionomial DIstribution/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstribution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		87239C7B27DB842C0006688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bionomial DIstribution/Bionomial_DIstribution.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bionomial DIstribution/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstribution";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		87239C7D27DB842C0006688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstributionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bionomial DIstribution.app/Contents/MacOS/Bionomial DIstribution";
+			};
+			name = Debug;
+		};
+		87239C7E27DB842C0006688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstributionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bionomial DIstribution.app/Contents/MacOS/Bionomial DIstribution";
+			};
+			name = Release;
+		};
+		87239C8027DB842C0006688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstributionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bionomial DIstribution";
+			};
+			name = Debug;
+		};
+		87239C8127DB842C0006688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goddamn.Bionomial-DIstributionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bionomial DIstribution";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87239C4F27DB842B0006688F /* Build configuration list for PBXProject "Bionomial DIstribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87239C7727DB842C0006688F /* Debug */,
+				87239C7827DB842C0006688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87239C7927DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87239C7A27DB842C0006688F /* Debug */,
+				87239C7B27DB842C0006688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87239C7C27DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstributionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87239C7D27DB842C0006688F /* Debug */,
+				87239C7E27DB842C0006688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87239C7F27DB842C0006688F /* Build configuration list for PBXNativeTarget "Bionomial DIstributionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87239C8027DB842C0006688F /* Debug */,
+				87239C8127DB842C0006688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87239C4C27DB842B0006688F /* Project object */;
+}
